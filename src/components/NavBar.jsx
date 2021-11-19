@@ -1,3 +1,4 @@
+import CartWidget from "./Carrito"
 
 function NavBar () {    
     return(
@@ -17,6 +18,7 @@ function NavBar () {
             </li>
         </ul>
     </div>
+    <CartWidget/>
     )
 }
 
